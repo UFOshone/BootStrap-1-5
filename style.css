@@ -2,11 +2,17 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 700;
 }
 
-.carousel-item img {
-  max-height: 500px;
-  object-fit: cover;
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
